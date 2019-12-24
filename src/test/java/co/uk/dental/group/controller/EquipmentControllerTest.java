@@ -9,6 +9,6 @@ public class EquipmentControllerTest {
     public void testController(){
         EquipmentController testClass = new EquipmentController();
 
-        Assertions.assertEquals("Equipment list", testClass.test());
+        Assertions.assertEquals("a", testClass.test());
     }
 }
