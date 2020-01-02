@@ -4,15 +4,5 @@ services:
     image: mrmartyn05/equipment-service
     ports:
       - "8081:8081"
-  viz:
-    image: dockersamples/visualizer
-    ports:
-      - "8090:8080"
-    volumes:
-      - "/var/run/docker.sock:/var/run/docker.sock"
-    deploy:
-      placement:
-        constraints:
-                - node.role==manager
 version: "3.1"
 
