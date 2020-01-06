@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping
 public class EquipmentController {
 
-    @GetMapping(value="/test", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value="/equipment", produces = MediaType.APPLICATION_JSON_VALUE)
     public String test() {
         return "Equipment list";
     }
