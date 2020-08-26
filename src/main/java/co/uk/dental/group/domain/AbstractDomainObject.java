@@ -12,10 +12,11 @@ public class AbstractDomainObject {
     @Override
     public String toString() {
 //        StringBuilder.
+	return null;
     }
 
     @Override
     public boolean equals(Object obj) {
-
+	return true;
     }
 }
